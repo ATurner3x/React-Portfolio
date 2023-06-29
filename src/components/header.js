@@ -2,6 +2,8 @@ import React from 'react';
 
 const Header = () => {
   return (
+
+    // Header 
     <header>
       <h1>Developer's Name</h1>
       <nav>
@@ -17,3 +19,4 @@ const Header = () => {
 };
 
 export default Header;
+// path: src\components\footer.js
