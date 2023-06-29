@@ -4,7 +4,7 @@ import AboutMe from './aboutMe';
 import Portfolio from './portfolio';
 import Contact from './contact';
 import Resume from './resume';
-
+import '../styles/content.css'
 const Content = () => {
   return (
     <Router>
