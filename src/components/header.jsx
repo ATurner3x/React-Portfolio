@@ -1,17 +1,25 @@
 import React from 'react';
-import '../styles/header.css'
+import { Link } from 'react-router-dom';
+import '../styles/header.css';
+
 const Header = () => {
   return (
-
-    // Header 
     <header>
       <h1>Developer's Name</h1>
       <nav>
         <ul>
-          <li>About Me</li>
-          <li>Portfolio</li>
-          <li>Contact</li>
-          <li>Resume</li>
+          <li>
+            <Link to="/about">About Me</Link>
+          </li>
+          <li>
+            <Link to="/portfolio">Portfolio</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+          <li>
+            <Link to="/resume">Resume</Link>
+          </li>
         </ul>
       </nav>
     </header>
@@ -19,4 +27,3 @@ const Header = () => {
 };
 
 export default Header;
-// path: src\components\footer.js
