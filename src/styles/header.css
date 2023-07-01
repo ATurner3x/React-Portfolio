@@ -1,42 +1,48 @@
-/*header styling*/
+/* Header Styling */
 
+/* Styling for the header container */
 header {
-    background-color: #f1f1f1;
+    background-color: #333; /* Set the background color to dark */
     padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a box shadow */
   }
   
+  /* Styling for the header title */
   h1 {
-    color: #333;
+    color: #fff; /* Set the text color to white */
     font-size: 24px;
   }
   
-
   /* Navigation Styling */
-
+  
+  /* Styling for the navigation list container */
   nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
     margin-top: 10px;
   }
-
-
-nav ul li {
+  
+  /* Styling for each navigation item */
+  nav ul li {
     margin: 0 10px;
     cursor: pointer;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add box shadow */
-    padding: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
     border-radius: 4px;
+    background-color: #555; /* Set the background color to dark */
   }
   
+  /* Hover styling for each navigation item */
   nav ul li:hover {
-    color: blue;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
+    color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* box shadow on hover */
+    background-color: #777; 
   }
-
+  
+  /* Styling for navigation item links */
   header nav ul li a {
     text-decoration: none;
+    color: #fff; /* Set the text color to white */
   }
-  
   
