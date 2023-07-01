@@ -37,12 +37,12 @@ header {
   }
   
   .nav-button:hover {
-    color: #ff00ff;
+    color: #00ff40;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
   
   .nav-button.active {
-    background-color: #ff00ff;
+    background-color: #1900ff;
     color: #fff;
   }
   

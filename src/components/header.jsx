@@ -1,16 +1,25 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/header.css';
 
 const Header = () => {
   return (
     <header>
-      <h1>Developer's Name</h1>
+      <h1>Alvin Turner</h1>
       <nav>
         <ul>
-          <li><button className="nav-button">About Me</button></li>
-          <li><button className="nav-button">Portfolio</button></li>
-          <li><button className="nav-button">Contact</button></li>
-          <li><button className="nav-button">Resume</button></li>
+          <li>
+            <Link to="/" className="nav-button">About Me</Link>
+          </li>
+          <li>
+            <Link to="/portfolio" className="nav-button">Portfolio</Link>
+          </li>
+          <li>
+            <Link to="/contact" className="nav-button">Contact</Link>
+          </li>
+          <li>
+            <Link to="/resume" className="nav-button">Resume</Link>
+          </li>
         </ul>
       </nav>
     </header>
