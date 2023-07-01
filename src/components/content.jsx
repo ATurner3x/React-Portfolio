@@ -1,20 +1,19 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import AboutMe from './aboutMe';
 import Portfolio from './portfolio';
 import Contact from './contact';
 import Resume from './resume';
-import '../styles/content.css'
+import '../styles/content.css';
+
 const Content = () => {
   return (
-    <Router>
-      <Switch>
-        <Route exact path="/" component={AboutMe} />
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/resume" component={Resume} />
-      </Switch>
-    </Router>
+    <Routes>
+      <Route path="/" element={<AboutMe />} />
+      <Route path="/portfolio" element={<Portfolio />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/resume" element={<Resume />} />
+    </Routes>
   );
 };
 

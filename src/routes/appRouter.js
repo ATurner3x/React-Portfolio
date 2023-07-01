@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import AboutMe from '../components/aboutMe';
 import Contact from '../components/contact';
 import Content from '../components/content';
@@ -10,17 +10,17 @@ import Resume from '../components/resume';
 
 const AppRouter = () => {
   return (
-    <BrowserRouter>
+    <Router>
       <Header />
-      <Switch>
-        <Route exact path="/" component={Content} />
-        <Route path="/about" component={AboutMe} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/resume" component={Resume} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Content />} />
+        <Route path="/about" element={<AboutMe />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/resume" element={<Resume />} />
+      </Routes>
       <Footer />
-    </BrowserRouter>
+    </Router>
   );
 };
 
