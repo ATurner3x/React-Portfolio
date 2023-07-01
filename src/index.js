@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './styles/app.css';
 import './index.css';
 import AppRouter from './routes/appRouter'; // Import the AppRouter component
 import reportWebVitals from './reportWebVitals';

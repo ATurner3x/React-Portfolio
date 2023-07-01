@@ -1,6 +1,6 @@
 /* Header styling */
 header {
-    background-color: #333;
+    background-color: #1e1f49;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
@@ -37,7 +37,7 @@ header {
   }
   
   .nav-button:hover {
-    color: #00ff40;
+    color: #020202;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
   
