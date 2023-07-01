@@ -1,21 +1,16 @@
-/* Header Styling */
-
-/* Styling for the header container */
+/* Header styling */
 header {
-    background-color: #333; /* Set the background color to dark */
+    background-color: #f1f1f1;
     padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  /* Styling for the header title */
   h1 {
-    color: #fff; /* Set the text color to white */
+    color: #333;
     font-size: 24px;
   }
   
   /* Navigation Styling */
-  
-  /* Styling for the navigation list container */
   nav ul {
     list-style: none;
     display: flex;
@@ -23,26 +18,30 @@ header {
     margin-top: 10px;
   }
   
-  /* Styling for each navigation item */
   nav ul li {
     margin: 0 10px;
+  }
+  
+  /* Button styling */
+  .nav-button {
+    border: none;
+    outline: none;
+    background-color: transparent;
     cursor: pointer;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     padding: 10px;
+    color: #333;
+    font-weight: bold;
     border-radius: 4px;
-    background-color: #555; /* Set the background color to dark */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
   
-  /* Hover styling for each navigation item */
-  nav ul li:hover {
-    color: #fff; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* box shadow on hover */
-    background-color: #777; 
+  .nav-button:hover {
+    color: blue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
   
-  /* Styling for navigation item links */
-  header nav ul li a {
-    text-decoration: none;
-    color: #fff; /* Set the text color to white */
+  .nav-button.active {
+    background-color: blue;
+    color: white;
   }
   
