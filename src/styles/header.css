@@ -45,4 +45,8 @@ header {
     background-color: #1900ff;
     color: #fff;
   }
+
+  .nav-button {
+    text-decoration: none;
+  }
   
