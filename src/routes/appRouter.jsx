@@ -7,19 +7,22 @@ import Footer from '../components/footer';
 import Header from '../components/header';
 import Portfolio from '../components/portfolio';
 import Resume from '../components/resume';
+import '../styles/appContainer.css';
 
 const AppRouter = () => {
   return (
     <Router>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Content />} />
-        <Route path="/about" element={<AboutMe />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/resume" element={<Resume />} />
-      </Routes>
-      <Footer />
+      <div className="app-container">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Content />} />
+          <Route path="/about" element={<AboutMe />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/resume" element={<Resume />} />
+        </Routes>
+        <Footer />
+      </div>
     </Router>
   );
 };

@@ -1,6 +1,17 @@
+/* footer.css */
+
 footer {
     background-color: #333333;
     color: #ffffff;
     padding: 20px;
     text-align: center;
+    margin-top: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
+  
+  footer p {
+    margin: 0;
+  }
+  
