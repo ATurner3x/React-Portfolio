@@ -1,6 +1,35 @@
-import React from 'react';
-import '../styles/contact.css'
+import React, { useState } from 'react';
+import '../styles/contact.css';
+
 const Contact = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+
+
+
+
+
+
+
+
+
+};
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   return (
     <section>
       <h2>Contact</h2>
@@ -8,5 +37,13 @@ const Contact = () => {
     </section>
   );
 };
+
+
+
+
+
+
+
+
 
 export default Contact;
