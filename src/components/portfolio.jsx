@@ -7,18 +7,18 @@ import weatherDashboard from '../assets/images/weather-dashboard.png';
 const Portfolio = () => {
   const projects = [
     {
-      title: 'Project 1',
+      title: 'Hangover Helper',
       imageSrc: hangoverHelper,
-      description: 'Description of Project 1.',
+      description: 'A web application to info about nearby bars and beers.',
       deployedLink: 'https://aturner3x.github.io/Hangover-Helper/',
       githubLink: 'https://github.com/ATurner3x/Hangover-Helper'
     },
     {
-      title: 'Project 2',
+      title: 'Weather Dashboard',
       imageSrc: weatherDashboard,
-      description: 'Description of Project 2.',
-      deployedLink: 'https://project2.com',
-      githubLink: 'https://github.com/project2'
+      description: 'A weather dashboard to display current weather conditions and forecast.',
+      deployedLink: 'https://aturner3x.github.io/m.6-Weather-Dashboard/',
+      githubLink: 'https://github.com/ATurner3x/m.6-Weather-Dashboard'
     },
     // Add more project objects as needed
   ];
@@ -28,9 +28,11 @@ const Portfolio = () => {
       {projects.map((project, index) => (
         <div className="portfolio-item" key={index}>
           <img src={project.imageSrc} alt={project.title} />
-          <h3>{project.title}</h3>
-          <p>{project.description}</p>
-          <div className="links">
+          <div className="project-info">
+            <h3>{project.title}</h3>
+            <p>{project.description}</p>
+          </div>
+          <div className="project-links">
             <a href={project.deployedLink} target="_blank" rel="noopener noreferrer">
               View Demo
             </a>
