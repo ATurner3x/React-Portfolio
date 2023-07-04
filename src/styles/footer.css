@@ -1,17 +1,19 @@
-/* footer.css */
 
 footer {
-    background-color: #333333;
+  background-color: #09092e;
     color: #ffffff;
     padding: 20px;
     text-align: center;
     margin-top: auto;
-    position: fixed;
+    margin: auto;
+    position: absolute;
     bottom: 0;
-    width: 100%;
+    left: 0%;
+    width: 96.8%;
   }
   
   footer p {
     margin: 0;
   }
+  
   

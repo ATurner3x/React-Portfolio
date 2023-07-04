@@ -7,7 +7,7 @@ const AboutMe = () => {
     <div className="about-me-container">
       <h2 className="about-me-title">About Me</h2>
       <img src={myPhoto} alt="Alvin Turner" className="about-me-photo" />
-      <p className="about-me-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit facilisis est, non fringilla risus iaculis eget. Vivamus quis rhoncus erat. Cras feugiat elit eu neque volutpat, sit amet gravida orci sollicitudin. Phasellus ac tellus eu ligula consequat tincidunt nec at lorem. Etiam luctus velit nec bibendum bibendum. Vestibulum eu elit felis. Maecenas luctus velit nec justo finibus, quis euismod arcu dictum. In aliquam purus eu massa varius, eu tristique quam hendrerit. Nulla facilisi. Mauris aliquam arcu eget luctus venenatis. Curabitur sit amet justo est.</p>
+      <p className="about-me-content">Hello, I'm Alvin Turner, a self-taught full-stack web developer. I'm passionate about coding and have been expanding my knowledge and expertise in web development. With a diverse background in Sales and Customer Service, I bring strong communication and interpersonal skills to the table. I thrive in collaborative environments and actively seek opportunities to enhance my skills. As a problem solver, I enjoy the process of finding creative solutions. I'm excited to apply my skills and grow as a developer in a challenging and rewarding position.</p>
     </div>
   );
 };
