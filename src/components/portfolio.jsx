@@ -1,12 +1,15 @@
 import React from 'react';
-import '../styles/portfolio.css'
-const Portfolio = () => {
-  return (
-    <section>
-      <h2>Portfolio</h2>
-      {/* Add titled images of applications with links */}
-    </section>
-  );
-};
+import '../styles/portfolio.css';
 
-export default Portfolio;
+const Portfolio = () => {
+  const projects = [
+    {
+      title: 'Project 1',
+      imageSrc: '../assets/',
+      description: 'Description of Project ',
+      deployedLink: 'https://project1.com',
+      githubLink: 'repo link'
+    };
+
+
+    export default Portfolio;
