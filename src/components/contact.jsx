@@ -7,27 +7,24 @@ const Contact = () => {
   const [message, setMessage] = useState('');
 
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // TODO: Handle form submission logic here
+    // access the form data (name, email, message) from the useState variables (name, email, message)
+    // send the data to a server or displaying a success message.
+
+    console.log('Form submitted:', { name, email, message });
+    
+    // Reset the form fields after submission
+    setName('');
+    setEmail('');
+    setMessage('');
+  };
 
 
 
 
 
-
-
-
-};
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   
   return (
