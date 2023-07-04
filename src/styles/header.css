@@ -1,3 +1,4 @@
+
 header {
   background-color: #09092e;
   padding: 20px;
@@ -20,12 +21,6 @@ h1 {
 
 
 
-
-
-
-
-
-
 /* Navigation Styling */
 nav ul {
   list-style: none;
@@ -45,6 +40,7 @@ nav ul li {
   background-color: transparent;
   cursor: pointer;
   padding: 10px;
+  margin: 0 25px;
   color: #fff;
   font-weight: bold;
   border-radius: 4px;
@@ -53,15 +49,43 @@ nav ul li {
 }
 
 .nav-button:hover {
-  color: #020202;
+  background-color: #191970;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .nav-button.active {
-  background-color: #1900ff;
+  background-color: #191970;
   color: #fff;
 }
 
 .nav-button {
   text-decoration: none;
+}
+
+/* Social Media Styling */
+
+.social-media-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social-media-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin: 0 20px;
+  margin-top: 10px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+  
+}
+
+.social-media-button:hover {
+  background-color: #191970;
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { FaUser, FaBriefcase, FaEnvelope, FaFileAlt, FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
 import '../styles/header.css';
-import { FaUser, FaBriefcase, FaEnvelope, FaFileAlt } from 'react-icons/fa';
 
 const Header = () => {
   return (
@@ -31,6 +31,17 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+      <div className="social-media-buttons">
+        <a href="https://twitter.com/your-twitter" target="_blank" rel="noopener noreferrer" className="social-media-button">
+          <FaTwitter />
+        </a>
+        <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer" className="social-media-button">
+          <FaGithub />
+        </a>
+        <a href="https://linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer" className="social-media-button">
+          <FaLinkedin />
+        </a>
+      </div>
     </header>
   );
 };
