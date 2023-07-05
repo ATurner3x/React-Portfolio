@@ -53,11 +53,13 @@ const Contact = () => {
     setMessage('');
   };
 
+
+// Basic email validation using a regular expression
   const isValidEmail = (email) => {
-    // Basic email validation using a regular expression
-    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const emailPattern = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
     return emailPattern.test(email);
   };
+  
 
   return (
     <section className="contact-container">
