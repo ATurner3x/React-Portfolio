@@ -35,7 +35,7 @@ const Header = () => {
         <a href="https://twitter.com/your-twitter" target="_blank" rel="noopener noreferrer" className="social-media-button">
           <FaTwitter />
         </a>
-        <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer" className="social-media-button">
+        <a href="https://github.com/ATurner3x" target="_blank" rel="noopener noreferrer" className="social-media-button">
           <FaGithub />
         </a>
         <a href="https://linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer" className="social-media-button">
