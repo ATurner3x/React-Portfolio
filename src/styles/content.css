@@ -38,6 +38,7 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
+    color: #fff; /* Updated */
   }
   
   textarea {
@@ -76,5 +77,14 @@
   .form-group input,
   .form-group textarea {
     background-color: #1900ff;
+  }
+  
+  textarea {
+    resize: vertical;
+    text-align: center; /* Add this line */
+  }
+
+  input {
+    text-align: center; /* Add this line */
   }
   
