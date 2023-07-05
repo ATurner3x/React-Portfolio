@@ -18,22 +18,26 @@ const Contact = () => {
      setEmailError(false);
      setEmailErrorMessage('');
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    // Validate the form fields
+    let formValid = true;
+
+    if (name.trim() === '') {
+      setNameError(true);
+      formValid = false;
+    }
+
+    if (email.trim() === '') {
+      setEmailError(true);
+      formValid = false;
+    } else if (!isValidEmail(email)) {
+      setEmailError(true);
+      setEmailErrorMessage('Please enter a valid email address');
+      formValid = false;
+    }
+
+    if (!formValid) {
+      return;
+    }
     
     
     
