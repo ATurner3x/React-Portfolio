@@ -4,11 +4,12 @@
   align-items: center;
   justify-content: center;
   padding: 40px;
-  background-color: #191970;
+  background-color: #09092e;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   width: 70%;
-  margin: 0 auto;
+  margin-top: 20%;
+  margin: auto;
 }
 
 .about-me-title {
