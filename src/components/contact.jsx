@@ -14,33 +14,50 @@ const Contact = () => {
     // send the data to a server or displaying a success message.
 
     console.log('Form submitted:', { name, email, message });
-    
+
     // Reset the form fields after submission
     setName('');
     setEmail('');
     setMessage('');
   };
 
-
-
-
-
-  
-  
   return (
-    <section>
+    <section className="contact-container">
       <h2>Contact</h2>
-      {/* Add a contact form with fields for name, email address, and message */}
+      <form onSubmit={handleSubmit}>
+        <div className="form-group">
+          <label htmlFor="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            required
+          />
+        </div>
+        <div className="form-group">
+          <label htmlFor="email">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
+        </div>
+        <div className="form-group">
+          <label htmlFor="message">Message</label>
+          <textarea
+            id="message"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+            required
+          ></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
     </section>
   );
 };
-
-
-
-
-
-
-
-
 
 export default Contact;
