@@ -12,6 +12,31 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    
+     // Reset any previous errors
+     setNameError(false);
+     setEmailError(false);
+     setEmailErrorMessage('');
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     // TODO: Handle form submission logic here
     // access the form data (name, email, message) from the useState variables (name, email, message)
     // send the data to a server or displaying a success message.
