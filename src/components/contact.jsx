@@ -53,6 +53,12 @@ const Contact = () => {
     setMessage('');
   };
 
+  const isValidEmail = (email) => {
+    // Basic email validation using a regular expression
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailPattern.test(email);
+  };
+
   return (
     <section className="contact-container">
       <h2>Contact Me Here</h2>
