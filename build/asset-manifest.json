@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ATurner3x/static/css/main.718fcd5e.css",
+    "main.js": "/ATurner3x/static/js/main.a92d9915.js",
+    "static/media/portfoliopic.png": "/ATurner3x/static/media/portfoliopic.ae127dd75e7b94e2ba86.png",
+    "static/media/hangoverhelper.png": "/ATurner3x/static/media/hangoverhelper.157b4125a13312f9e920.png",
+    "static/media/weather-dashboard.png": "/ATurner3x/static/media/weather-dashboard.5a1c8617f604b97b113f.png",
+    "index.html": "/ATurner3x/index.html",
+    "main.718fcd5e.css.map": "/ATurner3x/static/css/main.718fcd5e.css.map",
+    "main.a92d9915.js.map": "/ATurner3x/static/js/main.a92d9915.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.718fcd5e.css",
+    "static/js/main.a92d9915.js"
+  ]
+}
