@@ -51,7 +51,7 @@ const Resume = () => {
       </div>
       <h2>Resume</h2>
       <div className="resume-download">
-        <a href="/path/to/your/resume.pdf" download>
+        <a href="https://docs.google.com/document/d/1vuwQEk1HWHb9eIIzJTbxnY3tjJBb38xKmIQm7z-sKoc/edit#heading=h.ij90aajnx6" download>
           Download Resume
         </a>
       </div>

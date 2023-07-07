@@ -12,6 +12,7 @@
     background-color: #09092e;
     margin-top: 20px;
     justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 5);
   }
   
   .portfolio-item img {
@@ -31,6 +32,8 @@
     color: #ffffff;
     display: flex;
     justify-content: center;
+    background-color: #09092e;
+    text-decoration: underline;
   }
   
   .project-info p {

@@ -17,6 +17,8 @@
   margin-bottom: 20px;
   color: #ffffff;
   text-align: center;
+  background-color: #09092e;
+  text-decoration: underline;
 }
 
 .about-me-photo {
@@ -32,4 +34,7 @@
   line-height: 1.6;
   text-align: center;
   color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10%;
 }
