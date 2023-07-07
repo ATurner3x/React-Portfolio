@@ -20,4 +20,42 @@ const Resume = () => {
     { icon: <FaPython />, label: 'Python', link: 'https://www.python.org/' },
   ];
 
-  
+  return (
+    <section>
+      <h2>Resume</h2>
+      <div className="resume-download">
+        <a href="/path/to/your/resume.pdf" download>
+          Download Resume
+        </a>
+      </div>
+      <div className="proficiencies">
+        <h3>Front-End Proficiencies</h3>
+        <ul>
+          {frontEndProficiencies.map((item, index) => (
+            <li key={index}>
+              <a href={item.link} target="_blank" rel="noopener noreferrer">
+                {item.icon}
+              </a>
+              <p>{item.label}</p>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div className="proficiencies">
+        <h3>Back-End Proficiencies</h3>
+        <ul>
+          {backEndProficiencies.map((item, index) => (
+            <li key={index}>
+              <a href={item.link} target="_blank" rel="noopener noreferrer">
+                {item.icon}
+              </a>
+              <p>{item.label}</p>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  );
+};
+
+export default Resume;
