@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, IndexRoute } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import AboutMe from '../components/aboutMe';
 import Contact from '../components/contact';
 import Content from '../components/content';
@@ -15,12 +15,11 @@ const AppRouter = () => {
       <div className="app-container">
         <Header />
         <Routes>
-          <Route path="/" element={<Content />} />
+          <Route path="/" element={<AboutMe />} />
           <Route path="/about" element={<AboutMe />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />
-          <IndexRoute element={<AboutMe />} /> {/* Set AboutMe component as the default route */}
         </Routes>
         <Footer />
       </div>
