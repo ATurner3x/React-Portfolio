@@ -12,3 +12,12 @@ const Resume = () => {
     { icon: <FaReact />, label: 'React', link: 'https://reactjs.org/' },
   ];
 
+  const backEndProficiencies = [
+    { icon: <FaNodeJs />, label: 'Node.js', link: 'https://nodejs.org/' },
+    { icon: <FaNpm />, label: 'NPM', link: 'https://www.npmjs.com/' },
+    { icon: <FaDatabase />, label: 'MongoDB', link: 'https://www.mongodb.com/' },
+    { icon: <FaCode />, label: 'TypeScript', link: 'https://www.typescriptlang.org/' },
+    { icon: <FaPython />, label: 'Python', link: 'https://www.python.org/' },
+  ];
+
+  
