@@ -5,9 +5,9 @@ import '../styles/footer.css';
 const Footer = () => {
   return (
     <footer>
-      <p>Connect with me:</p>
+      <p>Connect with me @</p>
       <div className="social-links">
-        <a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/ATurner3x" target="_blank" rel="noopener noreferrer">
           <FaGithub />
         </a>
         <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer">
