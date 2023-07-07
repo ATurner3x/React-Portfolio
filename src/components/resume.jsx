@@ -22,12 +22,7 @@ const Resume = () => {
 
   return (
     <section>
-      <h2>Resume</h2>
-      <div className="resume-download">
-        <a href="/path/to/your/resume.pdf" download>
-          Download Resume
-        </a>
-      </div>
+    
       <div className="proficiencies">
         <h3>Front-End Proficiencies</h3>
         <ul>
@@ -53,6 +48,12 @@ const Resume = () => {
             </li>
           ))}
         </ul>
+      </div>
+      <h2>Resume</h2>
+      <div className="resume-download">
+        <a href="/path/to/your/resume.pdf" download>
+          Download Resume
+        </a>
       </div>
     </section>
   );

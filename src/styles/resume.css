@@ -1,0 +1,75 @@
+section {
+    background-color: #09092e;
+    padding: 40px;
+    margin: 20% 0;
+    border-radius: 4px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #191970;
+  }
+  
+  .resume-download {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .resume-download a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #09092e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .resume-download a:hover {
+    background-color: #1900ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .proficiencies {
+    margin-bottom: 40px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #191970;
+  }
+  
+  ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  p {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 14px;
+    
+  }
+  
