@@ -2,7 +2,12 @@
 
 ![Project Preview](./src/assets/images/Preview.png)
 
+
+
 This is my personal portfolio built using React. It showcases my projects, skills, and provides a way to get in touch with me. The portfolio is designed to be modern, visually appealing, and responsive.
+
+
+Visit @ https://aturner3x.github.io/React-Portfolio/
 
 ## Features
 
