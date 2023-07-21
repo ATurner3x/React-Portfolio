@@ -3,6 +3,7 @@ import '../styles/portfolio.css';
 
 import hangoverHelper from '../assets/images/hangoverhelper.png';
 import weatherDashboard from '../assets/images/weather-dashboard.png';
+import snipsnap from '../assets/images/snipsnap.png';
 
 const Portfolio = () => {
   const projects = [
@@ -19,6 +20,13 @@ const Portfolio = () => {
       description: 'A weather dashboard to display current weather conditions and forecast.',
       deployedLink: 'https://project2.com',
       githubLink: 'https://github.com/project2'
+    },
+    {
+      title: 'SnipSnap',
+      imageSrc: snipsnap,
+      description: 'SnipSnap is the go-to salon booking app that simplifies the process of scheduling appointments and managing your hair care needs.',
+      deployedLink: 'https://snipsnapsalon-cac486d1b963.herokuapp.com',
+      githubLink: 'https://github.com/ATurner3x/Snip-Snap'
     },
     // Add more project objects as needed
   ];
